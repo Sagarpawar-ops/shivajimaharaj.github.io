@@ -1,0 +1,126 @@
+body{
+  background-color: #FBF6F0;
+}
+
+.container {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 40 px 40px 40px;
+  background:#1A1A1D;
+
+}
+.bottom-container{
+  
+  text-align: center;
+  grid-column: 1/-1;
+  padding-bottom: 100;
+
+}
+
+.head{
+  background-color: #FC8621;
+  margin:10px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  
+  position: relative;
+
+}
+
+.mid-container{
+  color:#FC8621;
+  align-items: center;
+  padding: 15px 10px 15px 15px;
+  width: auto;
+ font-family: 'Raleway', sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+figcaption{
+  text-align: center;
+  color:#FC8621}
+
+.intro{
+  color:#FC8621;
+  margin:10px auto 10px auto;
+  padding: 15px;
+font-family: Verdana sans-serif;
+
+  overflow: auto;
+  text-align: justify;
+  text-justify: auto;
+  float: right;
+  width:50 px;
+ font-family: 'Raleway', sans-serif;}
+
+.bottom-container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 50px 50px;
+  padding-bottom: 120px;
+}
+.author{
+  font-family: Jomhuria;
+  font-size:30px;
+  color: #FC8621;
+}
+.info{
+  color: #FC8621;
+  font-size: 20px;
+}
+.address{
+  font-family: Jomhuria;
+  color: #FC8621;
+  font-size:27px;
+}
+
+.socialmedia{
+  font-family: Jomhuria;
+  color:#FC8621;
+  display: flexbox;
+  flex-direction: row;
+  
+  font-size:25px;
+  text-decoration: none;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin{
+  background: #FC8621;
+  color: white;
+}
+
+
+/* Twitter */
+.fa-twitter {
+  background: #FC8621;
+  color: white;
+}
+.fa-instagram{
+  background:#FC8621;
+  color: white;
+}
